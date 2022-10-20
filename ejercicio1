@@ -1,0 +1,3 @@
+entrada = input("Introduzca los países separados por comas:")
+paises = (entrada.split(","))
+print (",".join(sorted(set(paises))))
